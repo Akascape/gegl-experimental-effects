@@ -25,7 +25,7 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 
 ## Usage
 1. Open the `Tools > GEGL Operation...`
-2. Sesrch for the new effect name
+2. Sesrch for the new effect in the menu and select
 3. Adjust the controls
    
 ## Effects
