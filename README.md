@@ -10,14 +10,14 @@ The plugins are designed to work in GIMP, which uses GEGL as its core image-proc
 Precompiled binaries are provided in the `dist/` directory for convenience.
 Or you can download all the plugins from the [releases](https://github.com/Akascape/gegl-experimental-effects/releases/tag/releases).
 ### Windows
-- Download the .dll files: 
+- Download the `.dll` plugin files: 
 - Copy it to your GEGL plugin directory:
 ```
 C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 ```
 - Restart gimp
 ### Linux
-- Download the .so files:
+- Download the `.so` plugin files:
 - Copy it to your GEGL plugin directory:
 ```
 ~/.local/lib/gegl-0.4/
@@ -26,8 +26,8 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 
 ## Usage
 1. Open the `Tools > GEGL Operation...`
-2. Sesrch for the new effect in the menu and select
-3. Adjust the controls
+2. Sesrch for the new effect in the menu and select it
+3. Adjust the controls and view the results
    
 ## Effects
 | Effect Name | Description | Example | 
@@ -37,12 +37,13 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 More to be added soon...
 
 ## Build from source
-- Using MSYS (Easiest Way)
-1. Install Dependencies: Open the MSYS2 MinGW 64-bit terminal and run:
+- Using [MSYS](https://www.msys2.org/) (The Easiest Way)
+1. Download: Simply download this Repository
+2. Install Dependencies: Open the MSYS2 MinGW 64-bit terminal and run:
    ```
-   pacman -S mingw-w64-x86_64-gegl toolchain
+   pacman -S --needed mingw-w64-x86_64-gegl mingw-w64-x86_64-toolchain pkg-config
    ```
-2. Compile: Navigate to the source directory and run:
+3. Compile: Navigate to the plugn source file directory and run:
    ```
    gcc -shared -o plugin_name.dll plugin_name.c -I. $(pkg-config --cflags --libs gegl-0.4)
    ```
