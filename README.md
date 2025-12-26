@@ -38,22 +38,22 @@ More to be added soon...
 
 ## Build from source
 - Using [MSYS](https://www.msys2.org/) (The Easiest Way)
-1. Download: Simply download this Repository
-2. Install Dependencies: Open the MSYS2 MinGW 64-bit terminal and run:
+1. **Download:** Simply download this Repository
+2. **Install Dependencies:** Open the MSYS2 MinGW 64-bit terminal and run:
    ```
    pacman -S --needed mingw-w64-x86_64-gegl mingw-w64-x86_64-toolchain pkg-config
    ```
-3. Compile: Navigate to the plugn source file directory and run:
+3. **Compile:** Navigate to the plugn source file directory and run:
    ```
    gcc -shared -o plugin_name.dll plugin_name.c -I. $(pkg-config --cflags --libs gegl-0.4)
    ```
 
 ## License
-This project is licensed under the GNU General Public License v3.0 or later.
+This project is licensed under the **GNU General Public License v3.0** or later.
 See the [LICENSE](https://github.com/Akascape/gegl-experimental-effects/blob/releases/LICENSE) file for details.
 
 ## About
-Created by Akash Bora (Akascape).
+**Created by Akash Bora (Akascape).**
 This repository represents open-source work.
 Commercial plugins and products by the author are separate projects and are not derived from this codebase/license.
 
