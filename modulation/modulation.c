@@ -241,7 +241,7 @@ gegl_op_class_init (GeglOpClass *klass)
     "name",        "akascape:modulation",
     "title",       _("Modulation"),
     "categories",  "artistic",
-    "description", _("Frequency Modulation Effect"),
+    "description", _("Frequency Modulation Effect \nBy Akascape"),
     NULL);
 }
 
