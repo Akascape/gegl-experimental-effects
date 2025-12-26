@@ -51,3 +51,6 @@ See the [LICENSE](https://github.com/Akascape/gegl-experimental-effects/blob/rel
 Created by Akash Bora (Akascape).
 This repository represents open-source work.
 Commercial plugins and products by the author are separate projects and are not derived from this codebase/license.
+
+Follow me for more tools: [`Akascape`](https://github.com/Akascape/)
+
