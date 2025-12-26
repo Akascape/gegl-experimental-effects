@@ -34,6 +34,7 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 |-------------|-------------|---------| 
 | [Modulation](https://github.com/Akascape/gegl-experimental-effects/tree/main/modulation) | Directional Frequency Modulation (FM) effect | <img width="757" height="641" alt="image" src="https://github.com/user-attachments/assets/4e1c2eb0-fe54-4172-8c88-07569c1b6c1f" /> |
 
+More to be added soon...
 
 ## Build from source
 - Using MSYS (Easiest Way)
