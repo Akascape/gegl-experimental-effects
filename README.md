@@ -44,7 +44,7 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 
 ## License
 This project is licensed under the GNU General Public License v3.0 or later.
-See the LICENSE file for details.
+See the [LICENSE](https://github.com/Akascape/gegl-experimental-effects/blob/releases/LICENSE) file for details.
 
 ## About
 Created by Akash Bora (Akascape).
