@@ -1,4 +1,4 @@
-# Modulation Plugin
+# Modulation Plugin for Gimp
 
 <img width="1216" height="570" alt="image" src="https://github.com/user-attachments/assets/a07797b0-1d23-4d1f-9da0-46481da6b35e" />
 
