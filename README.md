@@ -37,7 +37,7 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 More to be added soon...
 
 ## Build from source
-- Using [MSYS](https://www.msys2.org/) (The Easiest Way)
+- Using [MSYS2](https://www.msys2.org/) (The Easiest Way)
 1. **Download:** Simply download this Repository
 2. **Install Dependencies:** Open the MSYS2 MinGW 64-bit terminal and run:
    ```
