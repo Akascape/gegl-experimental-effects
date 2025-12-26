@@ -31,6 +31,16 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 ## Effects
 1. Modulation
 
+## Build from source
+- Using MSYS (Easiest Way)
+1. Install Dependencies: Open the MSYS2 MinGW 64-bit terminal and run:
+   ```
+   pacman -S mingw-w64-x86_64-gegl toolchain
+   ```
+2. Compile: Navigate to the source directory and run:
+   ```
+   gcc -shared -o plugin_name.dll plugin_name.c -I. $(pkg-config --cflags --libs gegl-0.4)
+   ```
 
 ## License
 This project is licensed under the GNU General Public License v3.0 or later.
@@ -39,4 +49,4 @@ See the LICENSE file for details.
 ## About
 Created by Akash Bora (Akascape).
 This repository represents open-source work.
-Commercial plugins and products by the author are separate projects and are not derived from this codebase.
+Commercial plugins and products by the author are separate projects and are not derived from this codebase/license.
