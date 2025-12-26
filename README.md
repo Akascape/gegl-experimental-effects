@@ -29,7 +29,7 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 3. Adjust the controls
    
 ## Effects
-1. Modulation
+1. [Modulation](https://github.com/Akascape/gegl-experimental-effects/tree/main/modulation)
 
 ## Build from source
 - Using MSYS (Easiest Way)
