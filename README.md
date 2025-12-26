@@ -8,7 +8,7 @@ The plugins are designed to work in GIMP, which uses GEGL as its core image-proc
 
 ## Installation Guide
 Precompiled binaries are provided in the `dist/` directory for convenience.
-Or you can download all the plugins from the (releases)[https://github.com/Akascape/gegl-experimental-effects/releases/tag/releases].
+Or you can download all the plugins from the [releases](https://github.com/Akascape/gegl-experimental-effects/releases/tag/releases).
 ### Windows
 - Download the .dll files: 
 - Copy it to your GEGL plugin directory:
