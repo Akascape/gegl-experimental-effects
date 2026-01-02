@@ -47,6 +47,7 @@ More to be added soon...
    ```
    pacman -S --needed mingw-w64-x86_64-gegl mingw-w64-x86_64-toolchain pkg-config
    ```
+   (Or you can use any gcc compiler)
 3. **Compile:** Navigate to the plugn source file directory and run:
    ```
    gcc -shared -o plugin_name.dll plugin_name.c -I. $(pkg-config --cflags --libs gegl-0.4)
