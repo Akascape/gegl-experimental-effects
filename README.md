@@ -20,7 +20,11 @@ C:\Users\<username>\AppData\Local\gegl-0.4\plug-ins\
 - Download the `.so` plugin files:
 - Copy it to your GEGL plugin directory:
 ```
-~/.local/lib/gegl-0.4/
+~/.local/lib/gegl-0.4/plug-ins/
+```
+or 
+```
+~/.local/share/gegl-0.4/plug-ins/
 ```
 - Restart gimp
 
