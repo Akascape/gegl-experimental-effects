@@ -47,6 +47,10 @@ More to be added soon...
    ```
    gcc -shared -o plugin_name.dll plugin_name.c -I. $(pkg-config --cflags --libs gegl-0.4)
    ```
+   or
+   ```
+   gcc -fPIC -shared -o plugin_name.so plugin_name.c -I. $(pkg-config --cflags --libs gegl-0.4)
+   ```
 
 ## License
 This project is licensed under the **GNU General Public License v3.0** or later.
