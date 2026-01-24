@@ -2,6 +2,8 @@
 
 **BlockGlitch** is a GEGL-based filter for GIMP that creates a chaotic, digital artifact aesthetic. It simulates data corruption by slicing the image into horizontal blocks and applying a channel-split offset, perfect for glitch art, cyberpunk visuals, or "corrupted video" looks.
 
+<img width="1331" height="622" alt="image" src="https://github.com/user-attachments/assets/c57c0cac-9005-46d2-ab5c-c488ca757309" />
+
 ## Features
 * **Horizontal Slice Glitch:** Randomly shifts horizontal segments of the image to create a "torn" data effect.
 * **Channel Splitting:** Separates and offsets specific color pairs (Red-Cyan, Green-Magenta, Blue-Yellow) to simulate chromatic aberration.
