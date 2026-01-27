@@ -37,7 +37,8 @@ or
 | Effect Name | Description | Example | 
 |-------------|-------------|---------| 
 | [Modulation](https://github.com/Akascape/gegl-experimental-effects/tree/main/modulation) | Directional Frequency Modulation (FM) effect | <img width="757" height="641" alt="image" src="https://github.com/user-attachments/assets/4e1c2eb0-fe54-4172-8c88-07569c1b6c1f" /> |
-| [BlockGlitch](https://github.com/Akascape/gegl-experimental-effects/tree/main/blockglitch) | Digital Blocky Glitch artifacts| <img width="827" height="711" alt="image" src="https://github.com/user-attachments/assets/d0c7b0d4-633a-49db-9362-29f5e65c3d60" />
+| [BlockGlitch](https://github.com/Akascape/gegl-experimental-effects/tree/main/blockglitch) | Digital Blocky Glitch artifacts| <img width="827" height="711" alt="image" src="https://github.com/user-attachments/assets/d0c7b0d4-633a-49db-9362-29f5e65c3d60" /> |
+| [LCD](https://github.com/Akascape/gegl-experimental-effects/tree/main/lcd) | LCD Display Effect | <img width="832" height="707" alt="image" src="https://github.com/user-attachments/assets/1026fa18-5a79-4482-bd42-c50f598d737e" /> | 
 
 
 More to be added soon...
