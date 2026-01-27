@@ -1,14 +1,10 @@
 # LCD Plugin for GIMP
+<img width="1382" height="668" alt="image" src="https://github.com/user-attachments/assets/1bb595ea-7f14-4860-bcce-8c64c5cc45cc" />
 
 LCD is a GEGL-based filter for GIMP that simulates an LCD display
 by recreating a subpixel RGB grid structure with brightness boosting
 and scanline-style gaps. The effect mimics the physical behavior of
 real LCD panels, producing a sharp digital, retro-display aesthetic.
-
-The filter samples the image at fixed cell centers and redistributes
-color information across RGB subpixels, making it ideal for glitch,
-pixel-art, UI mockups, and display emulation effects.
-
 
 ## Features
 
@@ -34,14 +30,11 @@ pixel-art, UI mockups, and display emulation effects.
 
 * **Brightness**
   - Boosts the intensity of active subpixels
-  - Useful for compensating brightness loss due to masking
-
 
 ## Source Information
 
 Source File: `lcd.c`  
 Plugin files are available in the `dist/` folder
-
 
 ## Technical Summary
 
@@ -55,12 +48,6 @@ algorithm:
    position within the cell
 4. Applies brightness amplification and dark gaps to simulate
    physical LCD pixel separation
-
-The implementation uses RGBA float processing and direct buffer
-access via the GEGL 0.4 API. Subpixel selection is computed using
-modulo arithmetic, while scanline gaps are introduced by attenuating
-pixel values near cell boundaries.
-
 
 ## Tips
 
